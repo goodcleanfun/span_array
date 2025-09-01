@@ -1,0 +1,17 @@
+{
+    "name": "span_array",
+    "version": "0.0.0",
+    "repo": "goodcleanfun/span_array",
+    "description": "A span is an offset and length in a larger array for simple untyped substrings and array runs",
+    "keywords": [],
+    "license": "MIT",
+    "dependencies": {
+        "goodcleanfun/aligned_array": "*"
+    },
+    "src": [
+        "src/span8_array.h",
+        "src/span16_array.h",
+        "src/span32_array.h",
+        "src/span64_array.h"
+    ]
+  }
