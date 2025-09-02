@@ -3,12 +3,12 @@
 #include <stdint.h>
 
 typedef struct {
-    uint32_t start;
-    uint32_t len;
-} span32_t;
+    uint8_t start;
+    uint8_t len;
+} uint8_span_t;
 
-#define ARRAY_NAME span32_array
-#define ARRAY_TYPE span32_t
+#define ARRAY_NAME uint8_span_array
+#define ARRAY_TYPE uint8_span_t
 #include "aligned_array/aligned_array.h"
 #undef ARRAY_NAME
 #undef ARRAY_TYPE
